@@ -1,6 +1,6 @@
 {
   "name": "bdd-test-helper",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "some helper functions for BDD / TDD with mocha and chai",
   "keywords": [
     "chai",
