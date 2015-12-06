@@ -1,12 +1,17 @@
+var chai;
+
 if (typeof window === 'undefined') {
-    var chai = require('chai');
+  chai = require('chai');
 } else {
-    var chai = window.chai;
+  chai = window.chai;
 }
 
 exports.expect = chai.expect;
 
 exports.iit = it.only;
+
 exports.idescribe = describe.only;
-exports.nit = function () {};
-exports.ndescribe = function () {};
+
+exports.nit = function() {};
+
+exports.ndescribe = function() {};
