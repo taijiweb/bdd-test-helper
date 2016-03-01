@@ -15,3 +15,7 @@ exports.idescribe = describe.only;
 exports.nit = function() {};
 
 exports.ndescribe = function() {};
+
+exports.ddescribe = function(desc, test) {
+  return test();
+};
